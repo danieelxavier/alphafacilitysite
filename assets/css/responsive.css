@@ -65,7 +65,8 @@
 	}
 	.hand-mockup {
 		position: static;
-		margin-bottom: -2px;
+		padding: 20px 20% 50px;
+		/* margin-bottom: -2px; */
 	}
 	.hero-area-content {
 		padding: 0 0 60px;
@@ -315,7 +316,7 @@
 		padding-bottom: 35px;
 	}
 	.hero-area {
-		padding-top: 130px;
+		padding-top: 110px;
 	}
 	.single-about-box {
 		padding: 5px 0 25px;

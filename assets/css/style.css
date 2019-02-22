@@ -318,10 +318,10 @@ textarea:focus {
 .appao-btn2 {
     border: 1px solid transparent;
 	border-radius: 25px;
-	background: #000529; /* Old browsers */
-	background-image: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%); /* FF3.6-15 */
-	background-image: -webkit-linear-gradient(left, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%); /* Chrome10-25,Safari5.1-6 */
-	background-image: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+	background: #156680; /* Old browsers */
+	/* background-image: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%); /* FF3.6-15 */
+	/* background-image: -webkit-linear-gradient(left, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%); /* Chrome10-25,Safari5.1-6 */
+	/* background-image: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%); */
 }
 .appao-btn2:hover {
     border: 1px solid #000529;
@@ -437,7 +437,7 @@ input::-webkit-input-placeholder {
 }
 .hero-area-content {
     color: #fff;
-	padding: 80px 0 170px;
+	padding: 40px 0 170px;
 }
 .hero-area-content h1 {
     color: #fff;
@@ -451,8 +451,7 @@ input::-webkit-input-placeholder {
 }
 .hand-mockup {
     position: absolute;
-    bottom: -2px;
-    max-width: 100%;
+	padding: 20px 15% 50px;
 }
 /*------------------------------------
 --------- HERO AREA CSS END ---------
@@ -512,10 +511,10 @@ input::-webkit-input-placeholder {
     opacity: 0.85;
 	right: 0;
 	bottom: 0;
-	background: #290000; /* Old browsers */
-	background: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+	background: #156680; /* Old browsers */
+	/* background: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%); /* FF3.6-15 */
+	/* background: -webkit-linear-gradient(left, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%); /* Chrome10-25,Safari5.1-6 */
+	/* background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%); */
 	z-index: -1;
 	position: absolute;
 }
@@ -1261,10 +1260,10 @@ h4.post-title a {
 	font-size: 18px;
 }
 .scrollToTop:hover {
-    background: #000529;
-    background: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%);
+    background: #156680;
+    /* background: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%);
     background: -webkit-linear-gradient(left, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
-    background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+    background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%); */
     border: 1px solid #fff;
     color: #fff;
 }
@@ -1424,10 +1423,10 @@ h4.post-title a {
     display: inline-block;
 }
 .pagination li a {
-    background-color: #000529;
-    background-image: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%);
+    background-color: #156680;
+    /* background-image: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%);
     background-image: -webkit-linear-gradient(left, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
-    background-image: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+    background-image: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%); */
     display: inline-block;
     width: 40px;
     height: 40px;
