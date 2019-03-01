@@ -1,5 +1,4 @@
 <?php
-
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
 
@@ -15,7 +14,7 @@
         !isset($_POST['message'])) {
         // died(json_encode(array('status'=>"error", 'message'=>"We are sorry, but there appears to be a problem with the form you submitted.")));      
             var_dump(http_response_code(422));
-        echo json_encode(array('status'=>"error", 'message'=>"We are sorry, but there appears to be a problem with the form you submitted."));
+        echo json_encode(array('status'=>'error', 'message'=>'We are sorry, but there appears to be a problem with the form you submitted.'));
         exit(0);
 
     }
@@ -41,9 +40,9 @@
 
             //Recipients
             $mail->setFrom($email, $name);
-            $mail->addAddress('danieelxavier@gmail.com', 'Fire Milhas');     // Add a recipient
-            // $mail->addAddress('ellen@example.com');               // Name is optional
-            // $mail->addReplyTo('info@example.com', 'Information');
+             $mail->addAddress('shipping.mao@alphafacilitygroup.com', 'Alpha Facility');     // Add a recipient
+             $mail->addAddress('operational.manager@alphafacilitygroup.com', 'Alpha Facility');     // Add a recipient
+            $mail->addReplyTo($email, $name);
             // $mail->addCC('cc@example.com');
             // $mail->addBCC('bcc@example.com');
 
